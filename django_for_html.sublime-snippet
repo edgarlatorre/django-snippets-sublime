@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+		<![CDATA[
+{% for ${1:i} in ${2:list} %}
+	{{ ${1:i} }}
+{% endfor %}
+		]]>
+	</content>
+	<tabTrigger>for</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
