@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+#! coding: utf-8
+from django.core.management import BaseCommand
+
+class Command(BaseCommand):
+    def handle(self, *args, **options):
+    	${1:pass}
+]]></content>
+	<tabTrigger>command</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
